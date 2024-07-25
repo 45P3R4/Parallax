@@ -14,11 +14,11 @@ h1 {
 
 @keyframes parallax-scroll {
     from {
-        transform: translateX(0%);
+        transform: translateX(0);
     }
 
     to {
-        transform: translateX(-50%);
+        transform: translateX(-1920px);
     }
 }
 
@@ -35,7 +35,7 @@ h1 {
 .layer {
     position: absolute;
     background-repeat: repeat;
-    width: 200%;
+    width: calc(1920px * 2);
     height: 100vh;
     transition: 10s;
 

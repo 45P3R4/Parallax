@@ -42,51 +42,51 @@ h1 {
 }
 
 .layer1 {
-    background-image: url("img/01_Mist.png");
+    background-image: url("img/01_Mist-min.png");
     animation: parallax-scroll 2s infinite linear;
 }
 
 .layer2 {
-    background-image: url("img/02_Bushes.png");
+    background-image: url("img/02_Bushes-min.png");
     animation: parallax-scroll 4s infinite linear;
 }
 
 .layer3 {
-    background-image: url("img/03_Particles.png");
+    background-image: url("img/03_Particles-min.png");
     animation: parallax-scroll 6s infinite linear;
 }
 
 .layer4 {
-    background-image: url("img/04_Forest.png");
+    background-image: url("img/04_Forest-min.png");
     animation: parallax-scroll 8s infinite linear;
 }
 
 .layer5 {
-    background-image: url("img/05_Particles.png");
+    background-image: url("img/05_Particles-min.png");
     animation: parallax-scroll 10s infinite linear;
 }
 
 .layer6 {
-    background-image: url("img/06_Forest.png");
+    background-image: url("img/06_Forest-min.png");
     animation: parallax-scroll 12s infinite linear;
 }
 
 .layer7 {
-    background-image: url("img/07_Forest.png");
+    background-image: url("img/07_Forest-min.png");
     animation: parallax-scroll 14s infinite linear;
 }
 
 .layer8 {
-    background-image: url("img/08_Forest.png");
+    background-image: url("img/08_Forest-min.png");
     animation: parallax-scroll 16s infinite linear;
 }
 
 .layer9 {
-    background-image: url("img/09_Forest.png");
+    background-image: url("img/09_Forest-min.png");
     animation: parallax-scroll 18s infinite linear;
 }
 
 .layer10 {
-    background-image: url("img/10_Sky.png");
+    background-image: url("img/10_Sky-min.png");
     animation: parallax-scroll 20s infinite linear;
 }

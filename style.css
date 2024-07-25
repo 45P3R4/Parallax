@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+
+    overflow: hidden;
+
+    font-family: sans-serif;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 2px #000000;
+}
+
+h1 {
+    font-size: 10vw;
+}
+
+@keyframes parallax-scroll {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.layer {
+    position: absolute;
+    background-repeat: repeat;
+    width: 200%;
+    height: 100vh;
+    transition: 10s;
+
+}
+
+.layer1 {
+    background-image: url("img/01_Mist.png");
+    animation: parallax-scroll 2s infinite linear;
+}
+
+.layer2 {
+    background-image: url("img/02_Bushes.png");
+    animation: parallax-scroll 4s infinite linear;
+}
+
+.layer3 {
+    background-image: url("img/03_Particles.png");
+    animation: parallax-scroll 6s infinite linear;
+}
+
+.layer4 {
+    background-image: url("img/04_Forest.png");
+    animation: parallax-scroll 8s infinite linear;
+}
+
+.layer5 {
+    background-image: url("img/05_Particles.png");
+    animation: parallax-scroll 10s infinite linear;
+}
+
+.layer6 {
+    background-image: url("img/06_Forest.png");
+    animation: parallax-scroll 12s infinite linear;
+}
+
+.layer7 {
+    background-image: url("img/07_Forest.png");
+    animation: parallax-scroll 14s infinite linear;
+}
+
+.layer8 {
+    background-image: url("img/08_Forest.png");
+    animation: parallax-scroll 16s infinite linear;
+}
+
+.layer9 {
+    background-image: url("img/09_Forest.png");
+    animation: parallax-scroll 18s infinite linear;
+}
+
+.layer10 {
+    background-image: url("img/10_Sky.png");
+    animation: parallax-scroll 20s infinite linear;
+}
